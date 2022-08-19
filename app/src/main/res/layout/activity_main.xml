@@ -203,19 +203,19 @@
         android:background="#00ffffff"
         android:drawableTop="@drawable/icon02"
         android:text="答题闯关"
-        android:textColor="#f8eb66"
+        android:textColor="#fdecec"
         android:textSize="8dp"></Button>
 
     <Button
         android:id="@+id/button3"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="260dp"
+        android:layout_marginLeft="270dp"
         android:layout_marginTop="174dp"
         android:background="#00ffffff"
         android:drawableTop="@drawable/icon03"
         android:text="答题闯关"
-        android:textColor="#f8eb66"
+        android:textColor="#fdecec"
         android:textSize="8dp">>
     </Button>
 
