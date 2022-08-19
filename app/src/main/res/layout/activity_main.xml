@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image_view1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff00"
+        android:scaleType="fitStart"
+        android:src="@drawable/firsttop" />
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/con_bg"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_view2"
+            android:layout_width="157dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/answer"></ImageView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_view3"
+                android:layout_width="29dp"
+                android:layout_height="27dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/answer1"></ImageView>
+
+            <TextView
+                android:id="@+id/text_view1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:text="1.第十九次全国代表大会开幕会时间"
+                android:textColor="#9f580a"
+                android:textSize="19dp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+          <Button
+              android:id="@+id/button_radio"
+              android:layout_width="60dp"
+              android:layout_height="25dp"
+              android:layout_marginLeft="75dp"
+              android:layout_marginTop="10dp"
+              android:background="@drawable/button"
+              android:text="单选题"
+              android:textColor="@color/white"
+              android:textSize="10dp"></Button>
+
+          <Button
+              android:id="@+id/button_more"
+              android:layout_width="60dp"
+              android:layout_height="25dp"
+              android:layout_marginLeft="150dp"
+              android:layout_marginTop="10dp"
+              android:background="@drawable/button"
+              android:textColor="@color/white"
+              android:text="\?解释"
+              android:textSize="10dp"></Button>
+      </LinearLayout>
+
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="15dp"
+            >
+            <RadioButton
+                android:id="@+id/rb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/selector"
+                android:text="  A . 2017 年 10 月 1 日"
+                android:textColor="#9f580a"
+                android:textSize="15dp"
+                android:textStyle="bold"
+></RadioButton>
+            <RadioButton
+                android:id="@+id/rb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/selector"
+                android:text="  B . 2017 年 10 月 10 日"
+                android:textColor="#9f580a"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                ></RadioButton>
+            <RadioButton
+                android:id="@+id/rb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/selector"
+                android:text="  C . 2017 年 10 月 15 日"
+                android:textColor="#9f580a"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                ></RadioButton>
+            <RadioButton
+                android:id="@+id/rb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/selector"
+                android:text="  D . 2017 年 10 月 18 日"
+                android:textColor="#9f580a"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                ></RadioButton>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/submit"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            >
+        </Button>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            >
+
+            <Button
+                android:id="@+id/pre_button"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/pre"></Button>
+
+            <Button
+                android:id="@+id/next_button"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/next"
+
+                >
+
+
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/image_view4"
+        android:layout_width="370dp"
+        android:layout_height="600dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="170dp"
+        android:scaleType="fitStart"
+
+        android:src="@drawable/firsttwo"></ImageView>
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="174dp"
+        android:background="#00ffffff"
+        android:drawableTop="@drawable/icon01"
+        android:text="答题闯关"
+        android:textColor="#f8eb66"
+        android:textSize="8dp"></Button>
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="174dp"
+        android:background="#00ffffff"
+        android:drawableTop="@drawable/icon02"
+        android:text="答题闯关"
+        android:textColor="#f8eb66"
+        android:textSize="8dp"></Button>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="174dp"
+        android:background="#00ffffff"
+        android:drawableTop="@drawable/icon03"
+        android:text="答题闯关"
+        android:textColor="#f8eb66"
+        android:textSize="8dp">>
+    </Button>
+
+
+</FrameLayout>
